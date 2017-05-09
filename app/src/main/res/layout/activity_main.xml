@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_default"
+    android:orientation="vertical"
+    tools:context="com.alextavella.oadivinho.MainActivity"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/strainger_doctor"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/strainger_doctor_desc" />
+
+    <EditText
+        android:id="@+id/etChuteJogador"
+        android:layout_marginTop="@dimen/space_md"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/edit_text_go" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_go"
+        android:textAllCaps="true"
+        android:onClick="go" />
+
+    <TextView
+        android:layout_marginTop="@dimen/space_md"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_last_score" />
+
+    <TextView
+        android:id="@+id/tvUltimoChute"
+        android:layout_marginTop="@dimen/space_md"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tv_last_score"
+        android:gravity="center"
+        tools:text="0" />
+
+</LinearLayout>

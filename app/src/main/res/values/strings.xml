@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OAdivinho</string>
+    <string name="strainger_doctor_desc">Strainger Doctor Image</string>
+    <string name="edit_text_go">Informe seu chute</string>
+    <string name="button_go">CHUTAR</string>
+    <string name="tv_last_score">Último chute</string>
+</resources>
