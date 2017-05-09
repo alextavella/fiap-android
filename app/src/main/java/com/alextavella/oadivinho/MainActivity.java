@@ -45,11 +45,12 @@ public class MainActivity extends AppCompatActivity {
 
             chuteJogador = Integer.parseInt(
                     etChuteJogador.getText().toString());
+            tvUltimoChute.requestFocus();
 
             textResult = compare(chuteJogador, numeroAleatorio);
             Toast.makeText(this, textResult, Toast.LENGTH_SHORT).show();
 
-            tvUltimoChute.setText(numeroAleatorio);
+            tvUltimoChute.setText(String.valueOf(numeroAleatorio));
         }
     }
 
