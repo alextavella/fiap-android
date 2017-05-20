@@ -25,11 +25,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        geradorNumero = new Random();
-        numeroAleatorio = geradorNumero.nextInt(11);
-
-        etChuteJogador = (EditText) findViewById(R.id.etChuteJogador);
-        tvUltimoChute = (TextView) findViewById(R.id.tvUltimoChute);
+        this.generateNumber();
+        this.init();
     }
 
     public void go(View view) {
@@ -43,15 +40,24 @@ public class MainActivity extends AppCompatActivity {
 
         } else {
 
-            chuteJogador = Integer.parseInt(
-                    etChuteJogador.getText().toString());
+            chuteJogador = Integer.parseInt(etChuteJogador.getText().toString());
             tvUltimoChute.requestFocus();
 
             textResult = compare(chuteJogador, numeroAleatorio);
             Toast.makeText(this, textResult, Toast.LENGTH_SHORT).show();
 
             tvUltimoChute.setText(String.valueOf(numeroAleatorio));
+            this.generateNumber();
         }
+    }
+
+    private void init() {
+        etChuteJogador = (EditText) findViewById(R.id.etChuteJogador);
+        tvUltimoChute = (TextView) findViewById(R.id.tvUltimoChute);
+    }
+
+    private Number generateNumber() {
+        return numeroAleatorio = new Random().nextInt(11);
     }
 
     private String compare(int value1, int value2) {
