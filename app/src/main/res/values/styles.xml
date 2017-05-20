@@ -6,11 +6,6 @@
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
         <item name="colorAccent">@color/accent</item>
-        
-        <!-- FullScreen theme. -->
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-        <item name="android:windowFullscreen">true</item>
     </style>
 
     <!-- FullScreen theme. -->
@@ -18,6 +13,22 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Time S2. -->
+    <style name="label_time_s2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/time_titulo</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/time_tamanho_titulo</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/time_cor_titulo</item>
+    </style>
+
+    <style name="label_desenvolvido_por" parent="label_time_s2">
+        <item name="android:text">@string/time_desenvolvido_por</item>
+        <item name="android:textSize">@dimen/time_tamanho_desenvolvido_por</item>
     </style>
 
 </resources>

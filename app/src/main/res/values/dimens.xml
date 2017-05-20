@@ -1,8 +1,15 @@
 <resources>
+
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="padding_default">16dp</dimen>
     <dimen name="tv_last_score">100sp</dimen>
     <dimen name="space_md">8dp</dimen>
+
+    <!--TimeS2-->
+    <dimen name="time_tamanho_titulo">30sp</dimen>
+    <dimen name="time_tamanho_desenvolvido_por">12sp</dimen>
+    <dimen name="time_tamanho_info">22sp</dimen>
+
 </resources>

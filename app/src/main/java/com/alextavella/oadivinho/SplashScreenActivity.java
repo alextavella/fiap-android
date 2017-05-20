@@ -12,7 +12,7 @@ import android.widget.ImageView;
  * Created by logonrm on 20/05/2017.
  */
 
-public class SplashScreen extends AppCompatActivity {
+public class SplashScreenActivity extends AppCompatActivity {
 
     //Tempo que nosso splashscreen ficará visivel
     private final int SPLASH_DISPLAY_LENGTH = 3500;
@@ -39,11 +39,11 @@ public class SplashScreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-            // Após o tempo definido irá executar a próxima tela
-            Intent intent = new Intent(SplashScreen.this, MainActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
-            startActivity(intent);
-            SplashScreen.this.finish();
+                // Após o tempo definido irá executar a próxima tela
+                Intent intent = new Intent(SplashScreenActivity.this, TimeActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                startActivity(intent);
+                SplashScreenActivity.this.finish();
             }
         }, SPLASH_DISPLAY_LENGTH);
     }

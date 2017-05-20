@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="times">
+        <item>@string/time_select</item>
+        <item>@string/time_select_cor</item>
+        <item>@string/time_select_san</item>
+        <item>@string/time_select_sao</item>
+        <item>@string/time_select_pal</item>
+    </string-array>
+
+</resources>
