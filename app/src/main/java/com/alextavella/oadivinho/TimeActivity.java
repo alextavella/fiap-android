@@ -33,4 +33,10 @@ public class TimeActivity extends AppCompatActivity {
         intentConfirm.putExtra("CLUB", spTimes.getSelectedItem().toString());
         startActivity(intentConfirm);
     }
+
+    /* Broadcast Receiver
+    * - EventBus
+    * - Otto
+    * - RxJava */
+
 }

@@ -2,16 +2,16 @@
     <string name="app_name">Fiap Android</string>
 
     <!--Adivinhe-->
-    <string name="strainger_doctor_desc">Strainger Doctor Image</string>
+    <string name="strainger_doctor_desc">Doutor Estranho</string>
     <string name="edit_text_go">Informe seu chute</string>
     <string name="button_go">CHUTAR</string>
     <string name="tv_last_score">Último chute</string>
 
     <!--TimeS2-->
-    <string name="time_titulo">Time S2</string>
     <string name="time_desenvolvido_por">Desenvolvido por @alextavella</string>
-    <string name="time_hint_name">Name</string>
-    <string name="time_hint_age">Age</string>
+    <string name="time_titulo">Time S2</string>
+    <string name="time_hint_name">Nome</string>
+    <string name="time_hint_age">Idade</string>
     <string name="time_select">Selecione o time</string>
     <string name="time_select_cor">Corinthians</string>
     <string name="time_select_san">Santos</string>

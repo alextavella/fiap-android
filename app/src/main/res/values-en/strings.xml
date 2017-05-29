@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fiap Android [en-US]</string>
+
+    <string name="time_btn_cadastrar">Register</string>
+    <string name="time_hint_age">Age</string>
+    <string name="time_hint_name">Name</string>
+    <string name="time_select">Select club</string>
+    <string name="time_titulo">Club S2</string>
+    <string name="time_select_cor">Barcelona</string>
+    <string name="time_select_san">Real Madrid</string>
+    <string name="time_select_sao">Atlético Madrid</string>
+    <string name="time_select_pal">Valencia</string>
+
+    <string name="time_desenvolvido_por">Done by @alextavella</string>
+    <string name="tv_last_score">Last kick</string>
+    <string name="button_go">KICK</string>
+    <string name="edit_text_go">Input the name</string>
+    <string name="strainger_doctor_desc">Strainger Doctor Image</string>
+    <string name="time_info_msg_confirm">Hi %1$s, congratulations for selected the %2$s!</string>
+</resources>
